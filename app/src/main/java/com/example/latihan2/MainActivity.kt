@@ -56,7 +56,7 @@ fun Screen1(navController: NavHostController) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = " - NAMA_KAMU")
+        Text(text = " 245150401111036 - Wafi Javier")
         Text(text = "Screen 1", modifier = Modifier.padding(top = 16.dp))
         Button(
             onClick = { navController.navigate("screen2") },
@@ -76,7 +76,7 @@ fun Screen2() {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "NIM_KAMU - NAMA_KAMU")
+        Text(text = "245150401111036 - Wafi Javier Zuhdi")
         Text(text = "Screen 2", modifier = Modifier.padding(top = 16.dp))
     }
 }
